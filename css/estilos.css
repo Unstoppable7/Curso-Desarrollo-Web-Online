@@ -20,3 +20,12 @@ h1{
     /*Es preferible aplicar el text-transform que desde el html poner todo por ejemplo en mayusculas, por el tema del buscador*/
     /*text-decoration: underline aplica en este caso que este subrayado, podemos revisarlo desde el inspector*/
 }
+.hero{
+    height: 300px;
+}
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width: 500px;
+}
