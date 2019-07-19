@@ -8,4 +8,15 @@ h4,
 h5,
 h6{
     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal; /*que tan grueso será la linea de las letras*/
+    /*font-style: italic para agregar estilos como el italic*/ 
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5; /*separacion entre lineas de las palabras*/
+    letter-spacing: -.2px; /*Separacion entre letras*/
+    /* text-transform: uppercase; Todas en mayusculas, o solo la primera o todas minusculas,etc.*/
+    /*Es preferible aplicar el text-transform que desde el html poner todo por ejemplo en mayusculas, por el tema del buscador*/
+    /*text-decoration: underline aplica en este caso que este subrayado, podemos revisarlo desde el inspector*/
 }
