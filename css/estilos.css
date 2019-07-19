@@ -1,21 +1,11 @@
-/* reglas
-selectores
-declaraciones
-propiedades
-valores */
-
-/*
-    Selector de etiquetas: 
-        header - section - article - nav - ...
-    Selector descendente (elemento hijo de otro elemento)
-        body header div nav ol li a
-    Selector de clase .:
-        .NombreClase
-    Selector de id #:
-    #NombreID
-*/
-
-header{
-    /*Propiedad*/background: red; /*Valor*/
-    color: aqua;
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
 }
