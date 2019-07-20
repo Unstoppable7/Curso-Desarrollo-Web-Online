@@ -151,3 +151,42 @@ figure{
     color: white;
     text-decoration: none;
 }
+.event-list{
+    display: flex;
+}
+.event{
+    margin: 10px;
+    width: 380px;
+    /* height: 450px; */
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+}
+.event img{   
+    width: 380px;
+    height: 200px;
+    object-fit: cover;
+}
+.event-detail{
+    margin: 20px 30px;
+    margin-top: -40px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 3px;
+    text-align: center;
+}
+.event-description{
+    text-align: left;
+}
+.event-url{
+     color: #056fff;
+     border: 1px solid;
+     padding: 5px 30px;
+     text-decoration: none;
+     border-radius: 5px;
+}
+.event-list-title{
+    margin-left: 20px;
+}
