@@ -42,13 +42,40 @@ h1{
 h1 strong{
     color: #026fff;
 }
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
 .header{
     background: #1b2127;
     color: white ;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.menu{
+    height: inherit;
+}
+.header ol{
+    height: inherit;
+    display: flex;
+}
+.header ol li{
+    height: inherit;
 }
 .header a{
+    display: flex;  /*Se necesita para que pueda tener el height(alto) heredado de 90px */
+    align-items: center;
+    height: inherit;
     color: white;
     text-decoration: none;
+    padding: 0 10px;
 }
 .hero{
     height: 300px;
