@@ -17,112 +17,127 @@
         <div class="box"></div>
         <div class="box"></div>
     </div> -->
+
     <header class="header">
-        <figure class="logo">
-            <img height="50" src="images/logo.png" alt="Logo de http://leonidasesteban.com">
-        </figure>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a class="link" href="#portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a class="link" href="#eventos">Experiencia</a>
-                </li>
-                <li>
-                    <a class="link" href="#contacto">Trabajemos juntos</a>
-                </li>
-            </ol>
-        </nav>
+        <div class="container">   
+            <figure class="logo">
+                <img height="50" src="images/logo.png" alt="Logo de http://leonidasesteban.com">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#eventos">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
     <section class="hero">
-        <h1>
-            Hola! Soy <strong> Cristian Rosales</strong><br> Desarrollador</strong> 
-            en <strong>crecimiento</strong> con <br>
-            pasión por la <strong>tecnologia</strong>
-        </h1>
-        <!-- <img src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio" > -->
+        <div class="container">
+            <h1 class="hero-title">
+                Hola! Soy <strong> Cristian Rosales</strong><br> Desarrollador</strong> 
+                en <strong>crecimiento</strong> con <br>
+                pasión por la <strong>tecnologia</strong>
+            </h1>
+            <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio" >
+        </div>
     </section>
-    <section class="portfolio">
-        <h2>Portafolio (Proyectos Destacados)</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Platzi Video</h3>
-                <h6 class="project-course">React Native / React</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 11/07/2019</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-                <p class="project-description">Esto es un parrafo ejemplo</p>
-            </div>
-           <figure class="project-imageContainer">
-               <img class="project-image" src="images/platzi-video-react-native.png" alt="proyecto del curso react native" width="500">
-           </figure> 
-        </article>
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2>Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Platzi Video</h3>
+                    <h6 class="project-course">React Native / React</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 11/07/2019</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+                    <p class="project-description">Esto es un parrafo ejemplo</p>
+                </div>
+               <figure class="project-imageContainer">
+                   <img class="project-image" src="images/platzi-video-react-native.png" alt="proyecto del curso react native" width="500">
+               </figure> 
+            </article>
+        </div>
     </section>
-    <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    <div class="container">
+        <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    </div>
     <section id="eventos" class="event-list">
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
-            </figure>
-            <div class="event-detail">
-                <h3 class="event-title">PlatziConf Mexico 2018</h3>
-                <p class="event-description">Descripción del articulo</p>
-                <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
-            </div>
-        </article>
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
-            </figure>
-            <div class="event-detail">
-                <h3 class="event-title">PlatziConf Mexico 2018</h3>
-                <p class="event-description">Descripción del articulo</p>
-                <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
-            </div>
-        </article>
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
-            </figure>
-            <div class="event-detail">
-                <h3 class="event-title">PlatziConf Mexico 2018</h3>
-                <p class="event-description">Descripción del articulo</p>
-                <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
-            </div>
-        </article>
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
-            </figure>
-            <div class="event-detail">
-                <h3 class="event-title">PlatziConf Mexico 2018</h3>
-                <p class="event-description">Descripción del articulo</p>
-                <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
-            </div>
-        </article>
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Mexico 2018</h3>
+                    <p class="event-description">Descripción del articulo</p>
+                    <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Mexico 2018</h3>
+                    <p class="event-description">Descripción del articulo</p>
+                    <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Mexico 2018</h3>
+                    <p class="event-description">Descripción del articulo</p>
+                    <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" height="">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Mexico 2018</h3>
+                    <p class="event-description">Descripción del articulo</p>
+                    <a class="event-url" href="http://www.youtube.com" target="_blank">Mas información</a>
+                </div>
+            </article>
+        </div>
     </section>
     <section id="contacto" class="contact">
-        <form action="/suscripcion/" class="form-email">
-            <h2 class="contacto-title">¿Creamos algo juntos?</h2>
-            <input type="text" placeholder="Déjame tu email">
-            <button>Enviar</button>
-        </form>
-        <div class="social">
-            <a href="https://twitter.com/cristianrch" class="social-link twitter"></a>
-            <a href="https://instagram.com/cristianrch" class="social-link instagram"></a>
-            <a href="https://github.com/cristianrch" class="social-link github"></a>
+        <div class="container">
+            <form action="/suscripcion/" class="form-email">
+                <h2 class="contacto-title">¿Creamos algo juntos?</h2>
+                <input type="text" placeholder="Déjame tu email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com/cristianrch" class="social-link twitter"></a>
+                <a href="https://instagram.com/cristianrch" class="social-link instagram"></a>
+                <a href="https://github.com/cristianrch" class="social-link github"></a>
+            </div>
         </div>
     </section>
     <footer class="footer">
-        <div>
-            <p>
-                Curso de Desarrollo web online 2019 <img width="80px" src="images/platzi.png" alt="Platzi">
-            </p>
-        </div>
-        <div>
-            <p>
-                Designed with <\3 by <a href="https://twitter.com/thespianartist">@thespianartist</a>
-            </p>
+        <div class="container">
+            <div>
+                <p>
+                    Curso de Desarrollo web online 2019 <img width="80px" src="images/platzi.png" alt="Platzi">
+                </p>
+            </div>
+            <div>
+                <p>
+                    Designed with <\3 by <a href="https://twitter.com/thespianartist">@thespianartist</a>
+                </p>
+            </div>
         </div>
     </footer>
 </body>

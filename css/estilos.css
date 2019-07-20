@@ -31,13 +31,14 @@ h6{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 37px;
     line-height: 1.5; /*separacion entre lineas de las palabras*/
     letter-spacing: -.2px; /*Separacion entre letras*/
     /* text-transform: uppercase; Todas en mayusculas, o solo la primera o todas minusculas,etc.*/
     /*Es preferible aplicar el text-transform que desde el html poner todo por ejemplo en mayusculas, por el tema del buscador*/
     /*text-decoration: underline aplica en este caso que este subrayado, podemos revisarlo desde el inspector*/
     color: white;
+    margin: 0; 
 }
 h1 strong{
     color: #026fff;
@@ -81,11 +82,17 @@ figure{
 }
 .hero{
     height: 300px;
-    background-image: url('../images/hero.jpg');
+    /* background-image: url('../images/hero.jpg'); */
     background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    /* background-size: 500px 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image{
+    object-fit: cover;
 }
 .portfolio{
     background: #fafafa;
@@ -154,10 +161,11 @@ figure{
 }
 .event-list{
     display: flex;
+    flex-wrap: wrap;
 }
 .event{
     margin: 10px;
-    width: 380px;
+    width: 480px;
     /* height: 450px; */
     flex-shrink: 0;
     border-radius: 10px;
@@ -165,7 +173,7 @@ figure{
     background: #f4fbff;
 }
 .event img{   
-    width: 380px;
+    width: 480px;
     height: 200px;
     object-fit: cover;
 }
@@ -190,6 +198,9 @@ figure{
 }
 .event-list-title{
     margin-left: 20px;
+    color: #026fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
 }
 .contact{
     background-color: #056fff;
@@ -243,4 +254,14 @@ figure{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     margin-bottom: 10px;
+}
+.container{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    height: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
 }
