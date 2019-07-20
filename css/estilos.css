@@ -57,7 +57,8 @@ figure{
     color: white ;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    align-items: center;
+    height: 70px;
 }
 .menu{
     height: inherit;
@@ -101,4 +102,19 @@ figure{
 }
 .project-imageContainer{
     width: 500px;
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
 }
